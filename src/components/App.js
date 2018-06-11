@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import { Consumer } from './Context'
 
 class App extends Component {
   render() {
     return (
-      <h1>Hi!</h1>
+      <Consumer>
+      {store => <h1 onClick={store.update}>Hi {store.name}!</h1>}
+      </Consumer>
     )
   }
 }
