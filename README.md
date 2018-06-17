@@ -75,7 +75,7 @@ Redux also has things like middlewear, great devtools, a large ecosystem, it pro
 If you use redux to do things like:
 
 * State persistance/hydration
-* Audomated bug reports
+* Automated bug reports
 * Passing actions across things like websockets
 * Undo functionality
 * Alternate UIs
